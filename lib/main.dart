@@ -45,11 +45,15 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Colors.red,
               width: 200,
               height: 200,
-            )],
+            ),
+              SizedBox(height: 30,),
+              Text('First Screen Function - > ',
+                style: TextStyle(color: Colors.amber,fontSize: 20),),
+            ],
           ),
         ),
       ),
-    )
+    );
   }
 
 }
