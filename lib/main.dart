@@ -24,7 +24,6 @@ class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
 
-
   final String title;
 
   @override
@@ -41,7 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Padding(
           padding: EdgeInsets.all(20),
           child: Column(
-            children: [Container(
+            children: [
+              Container(
               color: Colors.red,
               width: 200,
               height: 200,
