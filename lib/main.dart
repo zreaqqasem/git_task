@@ -41,15 +41,20 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Padding(
           padding: EdgeInsets.all(20),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [Container(
               color: Colors.red,
               width: 200,
               height: 200,
-            )],
+            ),
+              SizedBox(height: 30,),
+              Text('Git Task ',style: TextStyle(fontSize: 20 ),),
+
+            ],
           ),
         ),
       ),
-    )
+    );
   }
 
 }
